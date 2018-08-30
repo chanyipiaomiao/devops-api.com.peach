@@ -1,0 +1,88 @@
+{% extends "base.html" %}
+{% block title %}Devops API - 提供运维/开发常用操作的HTTP API{% endblock %}
+{% block body %}
+	<div class="ui inverted vertical masthead center aligned segment">
+	  {% include Page.NavbarTplPath %}
+
+		<div class="ui text container">
+				<p></p>
+				<p></p>
+				<br/>
+				<h1 class="ui inverted header">
+					Devops API
+				</h1>
+				<h2>提供运维/开发常用操作的HTTP API</h2>
+				<a class="ui huge primary button" href="{{Page.DocsBaseURL}}">{{Tr(Lang, "home.get_started")}} <i class="right arrow icon"></i></a>
+			</div>
+		</div>
+	
+		<div class="ui vertical stripe segment">
+			<div class="ui aligned stackable three column grid container">
+				<div class="column">
+					<h3 class="ui header">
+						<i class="world icon"></i> IP地址归属地查询
+					</h3>
+					<p>IP地址归属地查询</p>
+				</div>
+				<div class="column">
+					<h3 class="ui header">
+						<i class="volume control phone icon"></i> 手机号归属地查询
+					</h3>
+					<p>手机号归属地查询</p>
+				</div>
+				<div class="column">
+					<h3 class="ui header">
+						<i class="smile	icon"></i> 工作日节假日判断
+					</h3>
+					<p>工作日节假日判断</p>
+				</div>
+			</div>
+		</div>
+	
+		<div class="ui vertical stripe segment">
+			<div class="ui aligned centered stackable grid container">
+				<h1 class="ui icon header">
+					<i class="thumbs up icon"></i>
+					<div class="content">
+						私有化部署获取更多超赞的功能
+						<div class="sub header">私有化部署获取更多的功能</div>
+					</div>
+				</h1>
+			</div>
+			<div class="ui aligned centered stackable four column grid container">
+				<div class="column">
+					<h3 class="ui header">
+						<i class="warning text icon"></i> 微信、钉钉、邮件报警
+					</h3>
+					<p>提供微信、钉钉、邮件报警</p>
+				</div>
+				<div class="column">
+					<h3 class="ui header">
+						<i class="rocket icon"></i> 2步验证服务端
+					</h3>
+					<p>提供Google Authenticator服务端API,系统可以很方便的接入</p>
+				</div>
+				<div class="column">
+					<h3 class="ui header">
+						<i class="database icon"></i> 密码存储功能
+					</h3>
+					<p>提供密码存储的功能,可以抛弃Excel了</p>
+				</div>
+				<div class="column">
+					<h3 class="ui header">
+						<i class="star icon"></i> 更多功能,敬请期待
+					</h3>
+					<p>更多功能,敬请期待</p>
+				</div>
+				<div class="row">
+					<div class="center aligned column">
+						<a class="ui huge blue button" href="https://github.com/chanyipiaomiao/devops-api">挖掘更多功能</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	{% include Page.FooterTplPath %}
+	
+{% endblock %}

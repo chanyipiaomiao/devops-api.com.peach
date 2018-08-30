@@ -1,0 +1,1 @@
+document.write("<h3>没有想要的功能</h3>\n\n<p>可以向<a href=\"https://github.com/chanyipiaomiao/devops-api/issues\">这里</a>提需求.</p>\n")
