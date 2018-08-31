@@ -1183,3 +1183,7 @@ samp {
 .center {
   text-align: center;
 }
+
+.ui.grid.documentation.container{
+  min-height: 55%;
+}
