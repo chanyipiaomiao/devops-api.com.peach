@@ -28,7 +28,16 @@
 			<link rel="stylesheet" href="/css/highlight-9.12.0/default.css">
 		{% endif %}
 		<script src="/js/highlight-9.12.0.pack.js"></script>
-
+		<script>
+			var _hmt = _hmt || [];
+			(function() {
+				var hm = document.createElement("script");
+				hm.src = "https://hm.baidu.com/hm.js?15fecddd7e15fdd59c25e81d96aa7726";
+				var s = document.getElementsByTagName("script")[0]; 
+				s.parentNode.insertBefore(hm, s);
+			})();
+		</script>
+				
 		<title>{% block title %}{{Title}}{% endblock %}</title>
 	</head>
 	<body>
