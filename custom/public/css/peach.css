@@ -1187,3 +1187,7 @@ samp {
 .ui.grid.documentation.container{
   min-height: 55%;
 }
+
+.githubstar {
+  margin-top: 15px;
+}
